@@ -21,6 +21,13 @@ export const Header = styled.header`
       margin-right: 4px;
     }
   }
+
+  @media screen and (max-width: 500px){
+    img {
+      max-width: 180px;
+    }
+  }
+
 `;
 
 export const RepositoryInfo = styled.section`
@@ -75,6 +82,43 @@ export const RepositoryInfo = styled.section`
         color: #6c6c80;
       }
     }
+  }
+
+  @media screen and (max-width: 500px){
+    header {
+      display: grid;
+      justify-items: center;
+
+      div{
+        margin-left: 0;
+        strong {
+          font-size: 22px;
+        }
+
+        P {
+          font-size: 16px;
+        }
+      }
+    }
+
+    ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+      justify-items: center;
+      text-align: center;
+      li {
+        & + li {
+          margin-left: 0;
+        }
+        &:last-child{
+          grid-column: 1 / 3;
+          justify-self: center;
+          text-align: center;
+        }
+      }
+    }
+
   }
 `;
 

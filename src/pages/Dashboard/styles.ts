@@ -51,6 +51,15 @@ export const Form = styled.form<FormProps>`
     background: ${ shade(0.2, '#04d361') }
     }
   }
+
+  @media screen and (max-width: 500px){
+    display: grid;
+    grid-gap: 20px;
+
+    input, button {
+      border-radius: 5px;
+    }
+  }
 `;
 
 export const Repositories = styled.div`
@@ -99,6 +108,21 @@ export const Repositories = styled.div`
     svg {
       margin-left: auto;
       color: #CBCBD6;
+    }
+  }
+
+  @media screen and (max-width: 500px){
+    a {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    img {
+      justify-self: center;
+    }
+      svg {
+        justify-self: center;
+        margin-left: initial;
+      }
     }
   }
 `;
