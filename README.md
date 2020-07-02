@@ -1,44 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img alt="Logo" title="#logo" width="300px" src="src/assets/logo.svg"/>
+</div>
 
-## Available Scripts
 
-In the project directory, you can run:
+<a id="sobre"></a>
 
-### `yarn start`
+## :book: Sobre
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Github Explorer** é uma aplicação web que realiza a busca por repositório dentro do github, listando suas *stars*, *forks* e *issues* abertas.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Esta aplicação foi construida no bootcamp **GoStack** distribuida pela [Rocketseat](https://rocketseat.com.br/).
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<a id="tecnologias-utilizadas"></a>
 
-### `yarn build`
+## :rocket: Tecnologias Utilizadas
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [TypeScript](https://www.typescriptlang.org/)
+- [ReactJS](https://reactjs.org/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<a id="como-usar"></a>
 
-### `yarn eject`
+## :fire: Como Usar
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Pré-requisitos
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Node.js](https://nodejs.org/);
+- [NPM](https://www.npmjs.com/get-npm) ou [Yarn](https://classic.yarnpkg.com/pt-BR/docs/install/);
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1.  Faça um clone:
 
-## Learn More
+```shell
+$ git clone https://github.com/samuel-lf/Github-Explorer.git
+```
+2. Executando o client Web:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+# Instale as dependências
+$ npm install
+ou
+$ yarn install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Inicie a aplicação
+$ npm run start
+ou
+$ yarn start
+```
+
+<h5 align="center">
+
+  Feito com :heart: por <a href="https://www.linkedin.com/in/samuel-leonel-4a9ab7130/" target="_blank">Samuel Leonel</a>
+</h5>
